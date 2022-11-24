@@ -1,0 +1,4 @@
+1.from KF import KalmanFilter即可调用类
+2.构造该类的对象时不需要参数，例如kf=KalmanFilter()
+3.一系列"set_"方法可以完成对相关参数的调试
+4.kf.track(x, y)即可根据坐标(x,y)完成预测
